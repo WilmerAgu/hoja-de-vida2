@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wilmer Agudelo</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="./index.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <nav>
+        <h2 class="logo">Wilmer <span>Agudelo</span> </h2>
+        <ul class="dropdown">
+            <li>
+                <a href="./index.html">Yo</a>
+                <ul class="sub-menu">
+                    <li><a href="#sobremi">Sobre Mi</a></li>
+                    <li><a href="#hobbies">Hobbies</a></li>
+                    <li><a href="#musica">Música</a></li>
+                    <li><a href="#libros">Libros</a></li>
+                    <li><a href="#fotografias">Fotografías</a></li>
+                </ul>
+            </li>
+            <li><a href="./familia.html">Familia</a></li>
+            <li><a href="./amigos.html">Amigos</a></li>
+        </ul>
+    </nav>
+    <div class="foto-perfil">
+        <img src="./img/pagina principal/foto-perfil.jpg" alt="foto-perfil" width="200px" style="max-width: 100%;">
+    </div>
+
+    <section id="sobremi">
+        <h1>Sobre Mi</h1>       
+        <div class="texto-ppl ">
+            <p>Tengo 31 años, soy una persona responsable, actualmete trabajo en un aempresa que se llama RUEINTER, 
+                los dia sabado en el CESDE sede BELLO me encuentro estudiando desarrollo de sofware.
+                en mis ratos libre me gusta leer, escuchar mucsica, dibujar, salir a rodar en la mnoto. disfrutar de un buen cafe caliente, un buen libro 
+                y buena musica es uno de los planes que mas disfruto. <br>
+                Me adapto facilmente a los cambios y aunque parezca que tengo cara de pocos amigos soy alguien con quien pueden tener una buena conversación. 
+                soy un poco serio pero muy alegre. Me gusta aprender y obtener nuevos conocimientos. Soy Tecnólogo en 
+                mantenimiento electrónico y actualmente trabajo en una empresa llamada SURINTER de la cual les estaré 
+                contando más adelante.
+            </p>
+        </div>
+    </section>
+
+    <main class="contenedor">
+        <h1 id="hobbies" >Mis Hobbies</h1>
+            <div class="carousel">
+                <div class="container">
+                    <br>
+                    <div id="theCarousel" class="carousel slide" data-ride="carousel">
+                        <!-- Indicadores -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#theCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#theCarousel" data-slide-to="1"></li>
+                            <li data-target="#theCarousel" data-slide-to="2"></li>
+                            <li data-target="#theCarousel" data-slide-to="3"></li>
+                            <li data-target="#theCarousel" data-slide-to="4"></li>
+                            <li data-target="#theCarousel" data-slide-to="5"></li>
+                        </ol>
+        
+                        <div class="carousel-inner" role="listbox">
+                            <div class="item active">
+                                <h2>Música</h2>
+                                <img src="./img/pagina principal/musica.jpg" alt="musica" width="300px" height="200px" >
+                                <div class="carousel-caption d-none d-md-block">
+                                </div>
+                            </div>      
+                            <div class="item">
+                                <h2>Lectura</h2>
+                                <img src="./img/pagina principal/libros.jpg" alt="libros" width="300px" height="200px" >
+                                <div class="carousel-caption d-none d-md-block">
+                                </div>
+                            </div>        
+                            <div class="item">
+                                <h2>Café</h2>
+                                <img src="./img/pagina principal/cafe.avif" alt="cafe" width="300px" height="200px" >
+                                <div class="carousel-caption d-none d-md-block">
+                                </div>
+                            </div>
+                            <div class="item">
+                                <h2>Anime</h2>
+                                <img src="./img/pagina principal/anime.jpg" alt="anime" width="300px" height="200px" >
+                                <div class="carousel-caption d-none d-md-block">
+                                </div>
+                            </div>
+                            <div class="item">
+                                <h2>Fotogrfía Paisajista</h2>
+                                <img src="./img/pagina principal/fotografia.jpg" alt="fotografia" width="300px" height="200px" >
+                                <div class="carousel-caption d-none d-md-block">
+                                </div>
+                            </div>
+                            <div class="item">
+                                <h2>Rodar en Moto</h2>
+                                <img src="./img/pagina principal/moto.jpg" alt="moto" width="300px" height="200px" >
+                                <div class="carousel-caption d-none d-md-block">
+                                </div>
+                        </div>
+                            <a class="left carousel-control" href="#theCarousel" role="button" data-slide="prev">
+                                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                <span class="sr-only">anterior</span>
+                            </a>
+                            <a class="right carousel-control" href="#theCarousel" role="button" data-slide="next">
+                                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                <span class="sr-only">siguiente</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+            <!-- fin seccion hobbies -->
+            <!-- inicio seccion musica -->
+            <section>
+                <div class="video">
+                    <h1 id="musica">Música</h1>
+                    <video autoplay muted loop width="100%" >
+                        <source src="./videos/concierto.mp4" type="video/mp4">
+                        <source src="./videos/concierto.ogg" type="video/ogg">
+                        <source src="./videos/concierto.webm" type="video/webm">
+                    </video>
+                </div>
+                <div class="centrar-btn-modal">
+                    <button class="modal-btn " onclick="openModal();">Bandas Favoritas</button>                       
+                    <dialog id="modal" >
+                        <div class="modal-content">
+                            <div>
+                                <img src="./img/bandas/iron-maiden.jpg" alt="" width="300px" height="300px" style="max-width: 100%;">
+                                <h2>IRON MAIDEN</h2>                      
+                            </div>
+                            <div>
+                                <img src="./img/bandas/ac-dc.jpg" alt="" width="300px" height="300px" style="max-width: 100%;">
+                                <h2>AC-DC</h2>
+                            </div>                              
+                            <div>
+                                <img src="./img/bandas/amon- amarth.jpg" alt="" width="300px" height="300px" style="max-width: 100%;">
+                                <h2>AMON AMARTH</h2>
+                            </div>
+                            <div>
+                                <img src="./img/bandas/avatar.jpg" alt="" width="300px" height="300px" style="max-width: 100%;">
+                                <h2>AVATAR</h2>
+                            </div>
+                            <div>
+                                <img src="./img/bandas/behemonth.jpg" alt="" width="300px" height="300px" style="max-width: 100%;">
+                                <h2>BEHEMONTH</h2>
+                            </div>
+                            <div>
+                                <img src="./img/bandas/creadle-of-filth.jpg" alt="" width="300px" height="300px" style="max-width: 100%;">
+                                <h2>CREADLE OF FILTH</h2>
+                            </div>
+                            <div>
+                                <img src="./img/bandas/dark-funeral.webp" alt="" width="300px" height="300px" style="max-width: 100%;">
+                                <h2>DARK FUNERAL</h2>
+                            </div>
+                            <div>
+                                <img src="./img/bandas/epica.webp" alt="" width="300px" height="300px" style="max-width: 100%;">
+                                <h2>EPICA</h2>
+                            </div>
+                            <div>
+                                <img src="./img/bandas/hypocresy.jpeg" alt="" width="300px" height="300px" style="max-width: 100%;">
+                                <h2>HYPOCRESY</h2>
+                            </div>
+                            <div>
+                                <img src="./img/bandas/megadeth.jpg" alt="" width="300px" height="300px" style="max-width: 100%;">
+                                <h2>MEGADETH</h2>
+                            </div>
+                            <div>
+                                <img src="./img/bandas/motorhead.jpg" alt="" width="300px" height="300px" style="max-width: 100%;">
+                                <h2>MOTORHEAD</h2>
+                            </div>
+                            <div>
+                                <img src="./img/bandas/orbit-culture.jpg" alt="" width="300px" height="300px" style="max-width: 100%;">
+                                <h2>ORBIT CULTURE</h2>
+                            </div>
+                            <div>
+                                <img src="./img/bandas/ozzy-osbourne.jpg" alt="" width="300px" height="300px" style="max-width: 100%;">
+                                <h2>OZZY OSBOURNE</h2>
+                            </div>
+                            <div>
+                                <img src="./img/bandas/sabaton.webp" alt="" width="300px" height="300px" style="max-width: 100%;">
+                                <h2>SABATON</h2>
+                            </div>
+                            <div>
+                                <img src="./img/bandas/in-flamees.jpg" alt="" width="300px" height="300px" style="max-width: 100%;">
+                                <h2>IN FLAMES</h2>
+                            </div>
+                            
+                            <span class="close-btn" onclick="closeModal();">&#10006;</span>
+                    </dialog> 
+                </div>
+            </section>  
+            <!-- fin seccion bandas de musica -->
+            <!-- inicio seccion libros -->
+            <h1>Libros</h1>
+            <section  id="libros" class="libros">
+                    <div class="libro">
+                        <img src="./img/libros/harry-potter.jpg" alt="harry potter" width="400px" height="300px" style="max-width: 100%;">
+                        <h2>Harry Potter</h2>
+                        <h3>J. K. Rowling</h3>
+                    </div>
+                    <div class="libro">
+                        <img src="./img/libros/dracula.jpg" alt="dracula" width="300px" height="300px" style="max-width: 100%;">
+                        <h2>Dracula</h2>
+                        <h3>Bram Stoker</h3>
+                    </div>
+                    <div class="libro">
+                        <img src="./img/libros/el-visitante.jpg" alt="el visitante" width="300px" height="300px" style="max-width: 100%;">
+                        <h2>El Visitante</h2>
+                        <h3>Sthephen King</h3>
+                    </div>
+                    <div class="libro">
+                        <img src="./img/libros/coelho.webp" alt="pablo coelho" width="300px" height="300px" style="max-width: 100%;">
+                        <h2>A orillas del del rio Piedra me senté y lloré</h2>
+                        <h3>Pablo Coelho</h3>
+                    </div>
+                    <div class="libro">
+                        <img src="./img/libros/angeles-y-demonios.jpg" alt="angeles y demonios" width="300px" height="300px" style="max-width: 100%;">
+                        <h2>Angeles y Demonios</h2>
+                        <h3>Dan Brown</h3>
+                    </div>
+                    <div class="libro">
+                        <img src="./img/libros/el-codigo-da-vinci.png" alt="el codigo da vinci" width="300px" height="300px" style="max-width: 100%;">
+                        <h2>El Código Da Vinci</h2>
+                        <h3>Dan Brown</h3>
+                    </div>
+            </section>
+
+            <section id="fotografias">
+                <div id="blog" class="blog">
+                    <div id="R&C" class="container">
+                       <div class="row">
+                          <div class="col-md-12">
+                             <div class="titlepage">
+                                <h1>Fotografías</h1>
+                                <!-- <span>Lorem Ipsum is that it has a more-or-less normal distribution of letters,</span>  -->
+                             </div>
+                          </div>
+                       </div>
+                       <div class="row">
+                          <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                             <div class="blog-box">
+                                <figure><img src="./img/fotografias/fotografia11.jpg"  width="600" height="450" style="max-width: 100%;" alt="#"/>
+                                   <span>4 Feb 2023</span>
+                                </figure>
+                                <div class="travel">
+                                   <span>Post  By :  Alejandria</span> 
+                                   <p><strong class="Comment"> 14 </strong>  Comment</p>
+                                   <p><strong class="like">26 </strong>Like</p>
+                                </div>                           
+                             </div>
+                          </div>
+                          <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                             <div class="blog-box">
+                                <figure><img src="./img/fotografias/fotografia16.jpg" width="600" height="450" style="max-width: 100%;" alt="#"/>
+                                    <span>30 Abr 2019</span>
+                                </figure>
+                                <div class="travel">
+                                   <span>Post  By :  San Andres de Cuerquia</span> 
+                                   <p><strong class="Comment"> 265 </strong>  Comment</p>
+                                   <p><strong class="like">325 </strong>Like</p>
+                                </div>
+                             </div>
+                          </div>
+                          <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                             <div class="blog-box">
+                                <figure><img src="./img/fotografias/fotografia15.jpg" width="600" height="450" style="max-width: 100%;" alt="#"/>
+                                   <span>30 Abr 2019</span>
+                                </figure>
+                                <div class="travel">
+                                   <span>Post  By :  San Andres de Cuerquia</span> 
+                                   <p><strong class="Comment"> 205 </strong>  Comment</p>
+                                   <p><strong class="like">307 </strong>Like</p>
+                                </div>
+                             </div>
+                          </div>
+                          <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                             <div class="blog-box">
+                                <figure><img src="./img/fotografias/fotografia14.jpg" width="600" height="450" style="max-width: 100%;" alt="#"/>
+                                   <span>30 Abr 2019</span>
+                                </figure>
+                                <div class="travel">
+                                   <span>Post  By :  San Andres de Cuerquia</span> 
+                                   <p><strong class="Comment"> 187 </strong>  Comment</p>
+                                   <p><strong class="like">257 </strong>Like</p>
+                                </div>
+                             </div>
+                          </div>
+                          <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                             <div class="blog-box">
+                                <figure><img src="./img/fotografias/fotografia13.jpg" width="600" height="450" style="max-width: 100%;" alt="#"/>
+                                   <span>20 Ene 2023</span>
+                                </figure>
+                                <div class="travel">
+                                   <span>Post  By :  San José Ant</span> 
+                                   <p><strong class="Comment"> 75 </strong>  Comment</p>
+                                   <p><strong class="like">98 </strong>Like</p>
+                                </div>
+                             </div>
+                          </div>
+                          <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                             <div class="blog-box">
+                                <figure><img src="./img/fotografias/fotografia12.jpg" width="600" height="450" style="max-width: 100%;" alt="#"/>
+                                   <span>20 Ene 2023</span>
+                                </figure>
+                                <div class="travel">
+                                   <span>Post  By :  San José Ant</span> 
+                                   <p><strong class="Comment"> 15 </strong>  Comment</p>
+                                   <p><strong class="like">105 </strong>Like</p>
+                                </div>
+                             </div>
+                          </div>
+                          <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                             <div class="blog-box">
+                                <figure><img src="./img/fotografias/fotografia5.jpg" width="600" height="450" style="max-width: 100%;" alt="#"/>
+                                   <span>25 Abr 2022</span>
+                                </figure>
+                                <div class="travel">
+                                   <span>Post  By :  Bello Ant</span> 
+                                   <p><strong class="Comment"> 150 </strong>  Comment</p>
+                                   <p><strong class="like">24 </strong>Like</p>
+                                </div>
+                             </div>
+                          </div>
+                          <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                             <div class="blog-box">
+                                <figure><img src="./img/fotografias/fotografia9.jpg" width="600" height="450" style="max-width: 100%;" alt="#"/>
+                                   <span>10 Feb 2022</span>
+                                </figure>
+                                <div class="travel">
+                                   <span>Post  By :  Buga</span> 
+                                   <p><strong class="Comment"> 50 </strong>  Comment</p>
+                                   <p><strong class="like"> 80 </strong>Like</p>
+                                </div>
+                             </div>
+                          </div>
+                       </div>
+                    </div>
+                 </div>          
+            </section>
+    </main>
+    <footer class="site-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-6 col-md-3">
+              <h6>Categories</h6>
+              <ul class="footer-links">
+                <li><a href="#sobremi">Sobre Mi</a></li>
+                <li><a href="#hobbies">Hobbies</a></li>
+                <li><a href="#musica">Música</a></li>
+                <li><a href="#libros">Libros</a></li>
+                <li><a href="#fotografias">Fotografías</a></li>
+              </ul>
+            </div>
+  
+            <div class="col-xs-6 col-md-3">
+              <h6>Pages</h6>
+              <ul class="footer-links">
+                <li><a href="./familia.html">Familia</a></li>
+                <li><a href="./amigos.html">Amigos</a></li>
+                <li><a href="./trabajo.html">Trabajo</a></li>
+              </ul>
+            </div>
+          </div>
+          <hr>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 col-sm-6 col-xs-12">
+              <p class="copyright-text">Copyright &copy; 2017 All Rights Reserved by 
+                <a href="#">Inicio</a>.
+              </p>
+            </div>         
+          </div>
+        </div>
+  </footer>
+   <script src="./index.js"></script>
+</body>
+</html>
